@@ -1,0 +1,18 @@
+[package]
+name = "notify-utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+notify-rust = "4"
+chrono = "0.4"
+
+[[bin]]
+name = "notify-time"
+path = "src/notify-time/main.rs"
+
+[[bin]]
+name = "notify-date"
+path = "src/notify-date/main.rs"
